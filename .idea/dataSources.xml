@@ -11,5 +11,16 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="simple_bank@simple-bank.ckwdemlqxoqw.ap-southeast-1.rds.amazonaws.com" uuid="4123f15c-fb3a-4db2-bd23-1fb164af6eb6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>co8ZZ1IinNVyXJ1jI4ri</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://simple-bank.ckwdemlqxoqw.ap-southeast-1.rds.amazonaws.com:5432/simple_bank</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
