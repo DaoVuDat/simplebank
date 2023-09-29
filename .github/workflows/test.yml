@@ -1,12 +1,12 @@
-name: ci-test
+name: Run Unit Tests
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
 jobs:
-  build:
-    name: Build
+  test:
+    name: Test
     runs-on: ubuntu-latest
 
     # Service containers to run with `container-job`
