@@ -8,7 +8,7 @@ dropdb:
 	docker exec -it postgres16alpine dropdb simple_bank
 
 migration_up:
-	migrate -path ./db/migration/ -database "postgresql://root:root@localhost:5432/simple_bank?sslmode=disable" -verbose up
+	migrate -path ./db/migration/ -database "postgresql://root:co8ZZ1IinNVyXJ1jI4ri@simple-bank.ckwdemlqxoqw.ap-southeast-1.rds.amazonaws.com:5432/simple_bank" -verbose up
 
 migration_up1:
 	migrate -path ./db/migration/ -database "postgresql://root:root@localhost:5432/simple_bank?sslmode=disable" -verbose up 1
